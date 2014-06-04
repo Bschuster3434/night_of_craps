@@ -149,7 +149,7 @@ def simulation_2():
 		result = play1.start_night_normal()
 		rolls_played.append(result['RollsPlayed'])
 		max_amount.append(result['MaxAmount'])
-	csvfile = open('C:\Users\Schuster\Documents\Test\craps_results.csv', 'wb')
+	csvfile = open('craps_results.csv', 'wb')
 	csvfile.write('Round, Max Amount, Rolls Played\n')
 	round = 1
 	for i in range(0, simulations):
